@@ -1,5 +1,12 @@
-import styles from './styles.module.css';
+import './App.css';
+import AddBill from '../AddBill/AddBill';
 
-export function App() {
-  return <div className={styles.main}>App</div>;
-}
+const App = () => {
+  return (
+    <div className="bills-container">
+      <AddBill />
+    </div>
+  );
+};
+
+export default App;
